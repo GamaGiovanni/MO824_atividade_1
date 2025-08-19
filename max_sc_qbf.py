@@ -1,5 +1,5 @@
 # Uso:
-#   python max_sc_qbf_gurobi.py caminho/instancia.txt --timelimit 600 --mipgap 0.0
+#   python max_sc_qbf.py caminho/instancia.txt --timelimit 600 --mipgap 0.0
 
 import argparse
 from gurobipy import Model, GRB, quicksum
